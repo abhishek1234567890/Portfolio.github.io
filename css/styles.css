@@ -1,0 +1,270 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#title{
+    background-color: black;
+    color: white;
+}
+h1{
+    font-size: 4rem;
+    font-family: Roboto rgb(255, 255, 255);
+    line-height: 1.5;
+    font-weight: bold;
+}
+.container-fluid{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.navbar{
+    padding-bottom: 4rem;
+    padding-left: 0;
+    padding-top: 0;
+}
+
+.navbar-brand{
+    font-size: 2.5rem;
+}
+
+
+.nav-link{
+    font-size: 1.2rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+
+.btn{
+    margin-top: 4%;
+}
+
+
+.profile-img{
+    margin-left: 30%;
+}
+
+/*----- Services------ */
+
+#Services{
+   padding: 7% 7%;
+   background-color:  rgb(16, 15, 15);
+}
+
+.icon-services{
+    color:#ffc107 ;
+}
+
+.icon-services:hover{
+    color:#9f7804 ;
+}
+
+.services-h2{
+    font-size: 3rem;
+    font-family:Humnst777 Blk BT;
+    text-align: center;
+    margin-bottom: 2%;
+    color: white;
+    /* background-color: #232322; */
+}
+
+.services-box{
+    text-align: center;
+    padding: 5%;
+    
+}
+
+h3{
+    font-family: Roboto rgb(255, 255, 255);
+    font-weight: bold;
+    color: white;
+    padding-top: 2rem;
+}
+
+p{
+    color: rgb(149, 149, 149);
+}
+
+/*------- skills------- */
+
+
+#Skills{
+    background-color: black;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.skills-row{
+    margin: 0;
+}
+.skills-heading{
+    text-align: center;
+    color: white;
+    padding-bottom: 2%;
+    font-family: Roboto rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.skills-intro{
+    color: #6e6969;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.skills-topic{
+    padding-top: 6%;
+    color: white;
+    font-family: Humnst777 Blk BT;
+    font-size: 1.2rem;
+}
+
+.progress-bar{
+    background-color: #ffbd39;
+}
+
+
+/*------- Teams------- */
+
+#Teams{
+    padding-top: 3%;
+    padding-bottom: 7%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    color: white;
+    background-color: rgb(16, 15, 15);
+}
+
+.teams-h1{
+    padding-top: 0%;
+    padding-bottom: ;
+}
+.teams-h2{
+    text-align: center;
+
+    
+}
+.teams-images{
+    height: 300px;
+    width: 300px;
+}
+
+.teams-description{
+    text-align: center;
+    color: #ffbd39; 
+    font-size: 30px;
+    padding-top: 6%;
+}
+
+.teams-intro{
+    color: rgb(184, 183, 183);
+    padding-bottom: 5%;
+
+}
+.teams-column{
+    padding: 1% 2%;
+}
+
+.card{
+    background-color: rgb(41, 41, 41);
+}
+.card-header{
+    background-color: rgb(29, 27, 27);
+}
+
+
+/*-------- CONTACT------- */
+
+#contact{
+    padding-top: 7%;
+    padding-bottom: 7%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: black;
+
+}
+
+.contact-left{
+    color: white;
+}
+
+.contact-right{
+    color:white
+}
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-btn{
+    padding-top: 1%;
+}
+
+
+/*------ footer------ */
+
+#footer{
+    padding: 1% 15%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.social-icons{
+    margin: 20px 10px;
+}
+
+
+
+
+
+
+
+/* media */
+@media(max-width:770px){
+    #title{
+        text-align: center;
+    }
+
+.profile-img{
+    margin-left: 0;
+
+}
+}
+
+
+
+
